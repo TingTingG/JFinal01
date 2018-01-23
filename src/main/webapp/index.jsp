@@ -20,7 +20,7 @@ To change this template use File | Settings | File Templates.
         <table class="table table-hover" style="text-align: center">
             <tr>
                 <td>#</td>
-                <td>Account</td>
+                <td>Account1</td>
                 <td>Password</td>
                 <td>Operation</td>
             </tr>
