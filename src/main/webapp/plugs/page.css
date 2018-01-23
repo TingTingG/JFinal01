@@ -1,0 +1,39 @@
+._page{
+	display: block;
+	user-select:none;
+}
+
+._page *{
+	display: inline-block;
+}
+
+._page .go{
+	padding: 0 10px;
+}
+
+._page .go,
+._page .ps .pi{
+	border: 1px solid #ddd;
+	height: 30px;
+	line-height: 28px;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+._page .ps .pi{
+	width: 30px;
+}
+
+._page .ps .pi:hover.selected,
+._page .ps .pi.selected{
+	background: #0CB95F;
+	border-color: #0CB95F;
+	color: white;
+}
+
+._page .go:hover,
+._page .ps .pi:hover{
+	color: #0CB95F;
+	border-color: #0CB95F;
+}
